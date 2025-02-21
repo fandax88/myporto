@@ -476,3 +476,86 @@ p.introimg {
     line-height: 1em;
 }
 
+/* Media Query untuk ukuran handphone */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    h4 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .wrap {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #menu {
+        height: auto;
+        text-align: center;
+    }
+
+    #menu li {
+        display: block;
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    #menu li a,
+    #menu li.active a {
+        padding: 10px;
+    }
+
+    .intro p {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    #download {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    #infoMenu {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    #infoMenu ul {
+        padding: 0;
+    }
+
+    #infoMenu li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #examplesList {
+        width: 100%;
+    }
+
+    #examplesList .column {
+        width: 100%;
+        margin: 0;
+    }
+}
+
