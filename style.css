@@ -592,8 +592,8 @@ h4 { font-size: 16px; }
     border-color: transparent transparent transparent #fff;
 }
 
-/* Media query untuk perangkat sangat kecil (lebar layar ≤ 480px) */
-@media (max-width: 830px) {
+/* Media query untuk handphone (lebar layar ≤ 768px) */
+@media (max-width: 900px) {
     .fp-controlArrow {
         display: none; /* Sembunyikan panah navigasi */
     }
