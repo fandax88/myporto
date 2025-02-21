@@ -592,25 +592,8 @@ h4 { font-size: 16px; }
     border-color: transparent transparent transparent #fff;
 }
 
-/* Media query untuk perangkat mobile (lebar layar ≤ 768px) */
-@media (max-width: 768px) {
-    .fp-controlArrow {
-        margin-top: -20px; /* Sesuaikan margin-top */
-    }
-
-    .fp-controlArrow.fp-prev {
-        border-width: 20px 17px 20px 0; /* Ukuran panah lebih kecil */
-        left: 5px; /* Posisi lebih dekat ke tepi */
-    }
-
-    .fp-controlArrow.fp-next {
-        border-width: 20px 0 20px 17px; /* Ukuran panah lebih kecil */
-        right: 5px; /* Posisi lebih dekat ke tepi */
-    }
-}
-
 /* Media query untuk perangkat sangat kecil (lebar layar ≤ 480px) */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .fp-controlArrow {
         display: none; /* Sembunyikan panah navigasi */
     }
